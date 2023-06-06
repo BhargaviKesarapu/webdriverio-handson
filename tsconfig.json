@@ -1,8 +1,9 @@
-
 {
     "compilerOptions": {
         "moduleResolution": "node",
         "module": "commonjs",
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
         "types": [
             "node",
             "@wdio/globals/types",
@@ -10,6 +11,7 @@
             "@wdio/mocha-framework",
             "@wdio/browserstack-service"
         ],
-        "target": "es2022"
+        "target": "es2022",
+        
     }
 }

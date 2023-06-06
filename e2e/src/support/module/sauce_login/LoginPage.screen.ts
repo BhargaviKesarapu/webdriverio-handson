@@ -1,5 +1,4 @@
-
-export class loginPage{
+export class LoginPage{
     
     usernameLocator(){
         return $('~test-Username');
@@ -20,5 +19,5 @@ export class loginPage{
        await this.loginLocator().click();
       
     }
-
+    
 }
